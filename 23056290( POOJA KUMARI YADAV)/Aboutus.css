@@ -1,0 +1,152 @@
+body html
+{
+  margin :0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color:  rgb(190, 214, 193);
+  
+}
+/*Diff file is created and link is added to html so this is external css*/
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  transition: 0.5s all;
+  /*z index is used to prevent the overlapping of text within content with nav bar texts.*/
+}
+
+.navbar ul {
+  text-align: center;
+  background-color: beige;
+  list-style-type: none;
+  overflow: hidden;
+  padding: none;
+  margin: 0;
+
+
+  /* overflow hidden will hide the elements that go out of boundary*/
+
+}
+
+.navbar a {
+  text-align: center;
+  color: #000000;
+  font: bold;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+
+}
+
+.navbar a:hover {
+  /*hover background colour will change the bg colour when the arrow is pointed on text*/
+  background-color: #E3EBBD;
+}
+
+.navbar li {
+  float: left;
+  display: inline;
+  /*From home to about us,properly alinged horizontally*/
+}
+.img{
+  max-width:320px ;
+  object-position: 300px;
+  float:left;
+  border: 3px solid rgb(225, 187, 187);
+  border-radius: 10px;
+  margin-left: 15px;
+  align-items:left;
+  
+
+}
+  
+.picture1{
+  width: 350px;
+  height: 400px;
+}
+
+.header-text{
+  margin-top: 25%;
+  font-size: 25px;
+}
+
+.container{
+ width: 80%;
+ display: flex;
+ margin-right: 10px;
+ padding: 0px 20px;
+   
+}
+.content{
+  color: black;
+  display: block;
+  align-items: start;
+  width: 45%;
+  margin-left: 70px;
+}
+.content h2{
+  margin-bottom: 22px;
+  font-size: 30px;
+  text-align:left ;
+  
+}
+.content p{
+  font-size: 16px;
+  text-align:start;
+}
+.Image{
+  display:flex;
+  padding-left:20px;
+  margin-right: 40px;
+  
+}body.html
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align:center;
+    display:flex;
+ 
+}
+ 
+body{
+    margin: 0px;
+    font-size: 20px;
+    padding: 0px;
+    background-color: rgb(205, 219, 230);
+    color:rgb(17, 16, 16);
+    
+}
+  
+h1 {
+    margin-top: 70px auto 0;
+    padding: 0px;
+    text-align: center;
+
+}
+form{
+    background:white;
+    width : 400px;
+    padding: 25px;
+    margin: 70px auto;
+    margin-bottom: 20px;
+    background-size: auto;
+    margin-top: 70px auto 0;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+
+
+
+  

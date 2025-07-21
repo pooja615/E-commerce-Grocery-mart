@@ -1,0 +1,203 @@
+/*Diff file is created and link is added to html so this is external css*/
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s all;
+    /*z index is used to prevent the overlapping of text within content with nav bar texts.*/
+}
+
+.navbar ul {
+    text-align: center;
+    background-color: beige;
+    list-style-type: none;
+    overflow: hidden;
+    padding: none;
+    margin: 0;
+
+
+    /* overflow hidden will hide the elements that go out of boundary*/
+
+}
+
+.navbar a {
+    text-align: center;
+    color: #000000;
+    font: bold;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+.navbar a:hover {
+    /*hover background colour will change the bg colour when the arrow is pointed on text*/
+    background-color: #E3EBBD;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    /*From home to about us,properly alinged horizontally*/
+}
+
+
+
+/* Adding hover for individual products for which a div cass Fruits  has to be created first*/
+.Fruits:hover {
+    box-shadow: 0 0 12px rgb(54, 52, 52);
+    padding: 6px;
+    transition: 0.5s all;
+}
+
+.Fruits {
+    transition: 0.5s all;
+    padding: 6px;
+
+}
+
+
+.button {
+    width: 80px;
+    text-align: centre;
+    border-radius: 25px;
+    /*this will make buttons rounder on the edges*/
+    font: bold;
+    border: 1px solid;
+    color: rgb(51, 51, 51);
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.button a:hover {
+    background-color: rgb(238, 213, 176);
+}
+
+h1 {
+    text-align: center;
+    font-style: arial;
+    color: white;
+    font-size: large;
+    size: 10px;
+    height: 20px;
+    color: white;
+}
+
+h2 {
+    font-style: arial;
+    color: #7fb83e;
+    text-align: center;
+    display: flex;
+}
+
+h3 {
+    color: #7fb83e;
+}
+
+h5 {
+
+    font-style: arial;
+    color: #709fb4;
+
+}
+
+h6 {
+    color: #b88852;
+
+}
+
+
+#products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    row-gap: 50px;
+    justify-content: space-between;
+    max-width: fit-content;
+    padding-inline: 25px;
+
+    /* For id  # and for class use . */
+}
+
+.Fruits {
+    width: 300px;
+}
+
+.Fruits a img {
+    height: 220px;
+    width: min-content;
+    object-fit: fill;
+
+}
+
+/*Css for veggies part*/
+#second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    row-gap: 50px;
+    justify-content: space-between;
+    max-width: fit-content;
+    padding-inline: 25px;
+}
+
+.veggies {
+    width: 300px;
+}
+
+.veggies a img {
+    height: 220px;
+    width: min-content;
+    object-fit: fill;
+}
+
+#third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    row-gap: 50px;
+    justify-content: space-between;
+    max-width: fit-content;
+    padding-inline: 25px;
+}
+
+.Drinks {
+    width: 300px;
+}
+
+.Drinks a img {
+    height: 220px;
+    width: min-content;
+    object-fit: fill;
+
+
+}
+
+/*Css for Pantry items part*/
+#fourth {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    row-gap: 50px;
+    justify-content: space-between;
+    max-width: fit-content;
+    padding-inline: 25px;
+}
+
+.Pantryitems {
+    width: 300px;
+}
+
+.Pantry a img {
+    height: 220px;
+    width: min-content;
+    object-fit: fill;
+
+
+}
+
+/*Single product details*/

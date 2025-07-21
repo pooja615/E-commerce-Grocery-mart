@@ -1,0 +1,92 @@
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s all;
+    /*z index is used to prevent the overlapping of text within content with nav bar texts.*/
+}
+
+.navbar ul {
+    text-align: center;
+    background-color: beige;
+    list-style-type: none;
+    overflow: hidden;
+    padding: none;
+    margin: 0;
+
+
+    /* overflow hidden will hide the elements that go out of boundary*/
+
+}
+
+.navbar a {
+    text-align: center;
+    color: #000000;
+    font: bold;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+.navbar a:hover {
+    /*hover background colour will change the bg colour when the arrow is pointed on text*/
+    background-color: #E3EBBD;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    /*From home to about us,properly alinged horizontally*/
+}
+
+.div{
+    height:50px;
+    background-color:#E3EBBD;
+    position:fixed;
+    width:100%;
+}
+h1{
+    color:rgb(203, 150, 194);
+    padding-left:20px;
+}
+.linka{
+    color:black;
+}
+.link.h1{
+    color:red;
+}
+p{
+    color:rgb(12, 12, 12);
+    padding-right: 10px;
+    padding-left: 20px;
+    
+}
+.image{
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.table{
+    padding-left: 20px;
+    border: 1px;
+}
+a{
+    margin-right:10px;
+}
+.image1{
+  width:450px;
+  height:400px;  
+  padding-left: 20px;
+}
+.image2{
+    width:800px;
+    height: 400px;  
+    padding-left: 20px;
+}
+.smallcontainer{
+    padding-left: 30px;
+}

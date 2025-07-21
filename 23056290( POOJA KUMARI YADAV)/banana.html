@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css">
+
+</head>
+
+<body>
+    <!-- class navbar is created then, .navbar class is called and added properties to 
+                                                       be displayed in style.css-->
+    <nav class="navbar"> <!-- class navbar is created then, .navbar class is called and added properties to 
+                                                        be displayed in style.css-->
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">All products</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Research</a></li>
+            <li><a href="">About us</a></li>
+        </ul> <!--ul means unordered list that will enlist using bullets-->
+    </nav>
+
+    <br>
+
+    <h1 style="background-color: rgb(224, 196, 161);">Now get exciting 10% off on fruits and veggies.</h1>
+    <h2 class="h2">
+        <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 240%;
+        ">Fruits</h2>
+        <br>
+        <br>
+        <!--float property is used to align div elements side by side rather than one up to down-->
+
+        <div class="small container">
+            <a href=""><img src="banana.png" alt="image of banana"></a>
+            <h3>Fresh bananas</h3>
+            <h4><i><del>Rs 90 per dozen</del></i></h4>
+            <h4><i>Get for Rs 60 per dozen</i></h4>
+            <p><b>Qty :</b> <input type="number" value="1"></p>
+            <button onclick="Sucessfully()" class="button"><a href="banana.html" style="text-decoration:none" ;>Buy
+                    now
+                </a></button>
+            <button onclick="cart()" class="button"><a href="banana.html" style="text-decoration:none" ;>Add to
+                    cart</a></button>
+            </button>
+            <style>
+                img {
+                    float: left;
+                    border: 2px;
+                    padding-left: 10px;
+                }
+            </style>
+            <br>
+            <br>
+            <p><b>Product details:</b>
+                <br>
+                <br> Get you hands on these perfectly ripe ,sweet bananas that have been brought and collected from
+                all
+                the small and big organic
+                farms of Nepal.
+                We provide only good bananas that are picularly handpicked in organic farms without use of any sort
+                of
+                chemicals all the way from the plains.This product of gromart has passed all the quality tests and
+                investigations from the Food quality survelliance authority of Nepal.
+                Enjoy healthy bananas and be doubt free cause we don't compromise
+                with neither our customers' needs nor health.
+            </p>
+        </div>
+
+        <script>
+            function Sucessfully() {
+                alert("Thank you for choosing us!");
+
+            }
+        </script>
+
+        <script>
+            function cart() {
+                alert("Added to cart successfully!");
+
+            }
+        </script>
+
+</body>
+
+</html>

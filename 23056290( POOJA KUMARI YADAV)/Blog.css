@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*Diff file is created and link is added to html so this is external css*/
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s all;
+    /*z index is used to prevent the overlapping of text within content with nav bar texts.*/
+}
+
+.navbar ul {
+    text-align: center;
+    background-color: beige;
+    list-style-type: none;
+    overflow: hidden;
+    padding: none;
+    margin: 0;
+
+
+    /* overflow hidden will hide the elements that go out of boundary*/
+
+}
+
+.navbar a {
+    text-align: center;
+    color: #000000;
+    font: bold;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+.navbar a:hover {
+    /*hover background colour will change the bg colour when the arrow is pointed on text*/
+    background-color: #E3EBBD;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    /*From home to about us,properly alinged horizontally*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.post h2 {
+    color: #333;
+}
+.post p {
+    color: #555;
+}
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
